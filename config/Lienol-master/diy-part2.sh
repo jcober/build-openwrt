@@ -26,6 +26,9 @@ echo "DISTRIB_SOURCECODE='Lienol'" >>package/base-files/files/etc/openwrt_releas
 # svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
 # AddPackage other vernesong OpenClash dev
 git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+# AddPackage other jerrykuku luci-app-argon-config master
+git clone https://github.com/jerrykuku/luci-app-argon-config.git package/Luci-app-argon-config
+# AddPackage other fw876 helloworld main
 # coolsnowwolf default software package replaced with Lienol related software package
 # rm -rf feeds/packages/utils/{containerd,libnetwork,runc,tini}
 # svn co https://github.com/Lienol/openwrt-packages/trunk/utils/{containerd,libnetwork,runc,tini} feeds/packages/utils
